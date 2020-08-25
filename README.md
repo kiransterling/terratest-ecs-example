@@ -31,7 +31,7 @@ money.
    tools](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html), such as setting the
    `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables. If you're using the `~/.aws/config` file for profiles then export `AWS_SDK_LOAD_CONFIG` as "True".
 1. Install [Terraform](https://www.terraform.io/) and make sure it's on your `PATH`.
-1. Install [Golang](https://golang.org/) and make sure this code is checked out into your `GOPATH`.
+1. Install [Golang](https://golang.org/) and make sure this code is checked out into your `GOPATH`..
 1. `cd test`
 1. `dep ensure`
 1. `go test -v -run TestTerraformAwsEcsExample`
